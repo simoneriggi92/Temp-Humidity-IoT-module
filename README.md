@@ -43,16 +43,17 @@
 										 in order to store measurments data and keep trace of the status (ACKED(NACKED). The Web Service is a Broker as well, since that it
 										 must communicates with AWS by the use of MQTT protocol. 
 
-										
-										 
 										 The data are fowarded by Web Service in a JSON format. The data are deserialized by a Lambda function in order to extract measurments and
 										 and store them in a DynamoDB database. 
 										 If the data are properly received, an <strong>ACK</strong> message is forwared toward WebService which will forwards too the message to the FEZ spider in 
 										 order to delete sended data from its SD card. Otherwise, a <strong>NACK</strong> message will be forwarded and the microcontroller sends the data again. 
+										
+										 
+All stored data are showed in a Web App developed though <strong>Node-READ</strong> through the use of DynamoDB API, in order to show them
+										 in related charts to monitoring values in rea-time.						
 
 										 
-										 All stored data are showed in a Web App developed though <strong>Node-READ</strong> through the use of DynamoDB API, in order to show them
-										 in related charts to monitoring values in rea-time.
+										 
 										 
 										
 								
