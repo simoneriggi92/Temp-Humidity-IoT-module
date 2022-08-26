@@ -1,6 +1,8 @@
-Temperature and Humidity IoT module
-
-IoT module creation inserted in a particular rural environment, to detect the values concerning <strong>humidity, lighting and temperature</strong>. Measurements obtained from three different sensors and sent to the<strong>FEZ Spider II board</strong>.</p>
+<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2><a href="#">Temperature and Humidity IoT module</a></h2>
+						<p>IoT module creation inserted in a particular rural environment, to detect the values concerning <strong>humidity, lighting and temperature</strong>. Measurements obtained from three different sensors and sent to the<strong>FEZ Spider II board</strong>.</p>
 					</header>
 					<div class="row">
 						<div class="col-4 col-6-medium col-12-large">
@@ -56,7 +58,13 @@ IoT module creation inserted in a particular rural environment, to detect the va
 										 All stored data are showed in a Web App developed though <strong>Node-READ</strong> through the use of DynamoDB API, in order to show them
 										 in related charts to monitoring values in rea-time.
 										 
-
+										
+								
+								</p>
+								
+									<br>
+									<br>
+									<p>
 										<h3>Used Technologies and language</h3><br />
 											<h4>Visual Studio</h4>
 											<h4>C#</h4>
@@ -67,4 +75,52 @@ IoT module creation inserted in a particular rural environment, to detect the va
 											<h4>Python</h4>
 											<h4>Node-READ</h4>
 											<h4>Postman</h4>
-	
+									</p>
+								</div>	
+
+								
+							</article>
+							
+							
+						</div>
+						
+						
+						
+					</div>
+					
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					
+					<div class="row">
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social" id ="social">
+								<li><a href="https://www.linkedin.com/in/simone-riggi-11b1a9180/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/simoneriggi92/ProjectAndLab" class="icon brands fa-github"><span class="label">Email</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li>
+						</ul>
+					</footer>
+				</div>
+			</article>
