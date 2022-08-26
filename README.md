@@ -39,12 +39,11 @@
 									<p>The FEZ microcontroller logic has been developed in C#. It is able to read data from connected sensors and store it in a SD card. It saves all data until an ACK message is
 										 received by the Web Service in order to make free space in the SD card. 
 										 It contains an internal log in order to register all operations executed by the microcontroller.
-
-										
 										 The ASP.NET Web Service exposes some APIs in order to receive and send data coming from microcontroller. The Miscrosoft SQL Server has been used
 										 in order to store measurments data and keep trace of the status (ACKED(NACKED). The Web Service is a Broker as well, since that it
 										 must communicates with AWS by the use of MQTT protocol. 
-										 
+
+										
 										 
 										 The data are fowarded by Web Service in a JSON format. The data are deserialized by a Lambda function in order to extract measurments and
 										 and store them in a DynamoDB database. 
@@ -57,21 +56,7 @@
 										 
 										
 								
-								</p>
 								
-									
-									<p>
-										<h3>Used Technologies and language</h3><br />
-											<h4>Visual Studio</h4>
-											<h4>C#</h4>
-											<h4>ASP.NET framework</h4>
-											<h4>Miscrosoft SQL Server</h4>
-											<h4>MQTT</h4>
-											<h4>AWS DynamoDB</h4>
-											<h4>Python</h4>
-											<h4>Node-READ</h4>
-											<h4>Postman</h4>
-									</p>
 								</div>	
 
 								
@@ -87,36 +72,4 @@
 				</div>
 			</article>
 
-		<!-- Contact -->
-			<article id="contact" class="wrapper style4">
-				<div class="container medium">
-					
-					<div class="row">
-						<div class="col-12">
-							<hr />
-							<h3>Find me on ...</h3>
-							<ul class="social" id ="social">
-								<li><a href="https://www.linkedin.com/in/simone-riggi-11b1a9180/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/simoneriggi92/ProjectAndLab" class="icon brands fa-github"><span class="label">Email</span></a></li>
-								<!--
-								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-								-->
-							</ul>
-							<hr />
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li>
-						</ul>
-					</footer>
-				</div>
-			</article>
+		
