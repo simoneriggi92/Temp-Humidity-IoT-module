@@ -12,6 +12,8 @@
 									The FEZ microcontroller reads from its sensors and collects data in a <strong>SD card</strong>. The data are then sended though <strong>HTTP</strong> protocol in <strong>JSON</strong> format by <strong>ASP.NET</strong> Web Service API implemented in order to store
 									data in a <strong>Miscrosoft SQL</strong> database. Through the <strong>MQTT</strong> protocol, the Web Service publishes data to two different topics in order to set <strong>AWS</strong> configuration and send data.
 									The received data are analyzed and deserilized by a <strong>Python lambda function</strong> in order to store data into <strong>DynamoDB</strong> tables.
+									![Uploading image.png…]()
+
 								</p>
 								<div class="row">
 									<div class="col-4 col-6-medium col-12-small">
