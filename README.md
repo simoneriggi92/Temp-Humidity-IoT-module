@@ -18,7 +18,7 @@ A **Python AWS Lambda function** deserializes the received data and stores it in
 
 ## System Components
 
-### ![Sensor](images/project/electronic.png) Sensor
+### ![Sensor](![image](https://github.com/user-attachments/assets/85d297da-78ea-4351-92c2-6ac7483a79c9) Sensor
 
 The **FEZ Spider II** microcontroller connects to sensors for:
 - Humidity  
@@ -27,15 +27,17 @@ The **FEZ Spider II** microcontroller connects to sensors for:
 
 These sensors capture environmental conditions and send readings to the microcontroller.
 
-### ![Ack/Nack](images/project/ack_nack.png) ACK/NACK Mechanism
+### ![Ack/Nack](![image](https://github.com/user-attachments/assets/220bade7-eb97-48e0-b3e8-f715fdf99c2b)) ACK/NACK Mechanism
 
 A **Python Lambda function** sends **ACK** or **NACK** messages back to the Web Service:
 - **ACK**: Confirms successful storage; the Web Service informs the microcontroller to delete the data from the SD card.
 - **NACK**: Indicates failure; the microcontroller resends the data.
 
-### ![Charts](images/project/charts.png) Interface
+### ![Charts](![image](https://github.com/user-attachments/assets/28cabfa1-67af-4ad0-906c-d3960b57143a)) Interface
 
 A **Web App** built using **Node-RED** visualizes the stored data in real-time charts via **AWS API** and **DynamoDB**.
+
+![image](https://github.com/user-attachments/assets/da70568d-1414-4e1e-83b6-c0d1d8fb5ab4)
 
 ## Technical Workflow
 
