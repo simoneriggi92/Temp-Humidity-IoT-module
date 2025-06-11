@@ -14,6 +14,8 @@ Using the **MQTT protocol**, the Web Service publishes data to two different top
 
 A **Python AWS Lambda function** deserializes the received data and stores it in **DynamoDB** tables.
 
+![image](https://github.com/user-attachments/assets/bfe42235-abdd-4115-ada7-e402747d876e)
+
 ## System Components
 
 ### ![Sensor](images/project/electronic.png) Sensor
